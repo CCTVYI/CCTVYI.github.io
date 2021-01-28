@@ -1,34 +1,55 @@
+.mod_header {
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+}
+
 .title-1 {
     position: relative;
     width: 100%;
-    height: 300px;
     margin: 0 auto;
     background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .note-list {
-    position: absolute;
-    margin: 10px auto;
-    width: 280px;
-    height: 280px;
+    margin: 50px;
+    left: 50px;
+    right: 50px;
     background-color: white;
-    left: 40%;
+    border-radius: 8px;
+}
+
+.note-1-title {
+    text-align: center;
+    font-size: 36px;
+    color: #00f99f;
+    background-color: #0b151a;
+    height: 100px;
+    padding-top: 40px;
+    border-radius: 8px;
 }
 
 .note-link-1 {
     padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
     display: block;
     text-decoration: none;
-    text-align: center;
-    font-size: 18px;
+    text-align: left;
+    font-size: 36px;
     color: black;
+    border-bottom:  2px solid #f2f2f2;
 }
 
 .note-link-1:hover {
     padding-top: 25px;
     display: block;
     text-decoration: none;
-    text-align: center;
-    font-size: 18px;
-    color: #31c27c;
+    text-align: left;
+    font-size: 36px;
+    background-color: #f9fafc;
 }
