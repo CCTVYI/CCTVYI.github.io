@@ -1,103 +1,132 @@
-<!DOCTYPE html><html><head><title>Git</title><meta charset='utf-8'><link href='../styles/git-marxico.css' rel='stylesheet'>
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-<style>
+<!DOCTYPE html>
+<html>
 
-</style></head><body><div id='preview-contents' class='note-content'>
-                        
-                    
+<head>
+  <title>C++11</title>
+  <meta charset='utf-8'>
+  <link href='../styles/marxico.css' rel='stylesheet'>
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+  <style>
+    .note-content {
+      font-family: "Helvetica Neue", Arial, "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, Song, sans-serif;
+    }
+  </style>
+</head>
 
-<div><div class="toc"><div class="toc">
-<ul>
-<li><ul>
-<li><a href="#git">Git</a><ul>
-<li><ul>
-<li><a href="#1查看状态">1.查看状态</a></li>
-<li><a href="#2拉取远程">2.拉取远程</a></li>
-<li><a href="#3查看分支">3.查看分支</a></li>
-<li><a href="#4切换分支">4.切换分支</a></li>
-<li><a href="#5添加代码">5.添加代码</a></li>
-<li><a href="#6提交代码">6.提交代码</a></li>
-<li><a href="#7创建本地分支">7.创建本地分支</a></li>
-<li><a href="#8删除分支">8.删除分支</a></li>
-<li><a href="#9查看提交信息">9.查看提交信息</a></li>
-<li><a href="#10显示分支差异">10.显示分支差异</a></li>
-<li><a href="#11计算文件md5值">11.计算文件MD5值</a></li>
-<li><a href="#12更新子模块">12.更新子模块</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</div>
+<body>
+  <div id='preview-contents' class='note-content'>
 
 
 
-<h2 id="git">Git</h2>
+    <div>
+      <div class="toc">
+        <div class="toc">
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#git">Git</a>
+                  <ul>
+                    <li>
+                      <ul>
+                        <li><a href="#1查看状态">1.查看状态</a></li>
+                        <li><a href="#2拉取远程">2.拉取远程</a></li>
+                        <li><a href="#3查看分支">3.查看分支</a></li>
+                        <li><a href="#4切换分支">4.切换分支</a></li>
+                        <li><a href="#5添加代码">5.添加代码</a></li>
+                        <li><a href="#6提交代码">6.提交代码</a></li>
+                        <li><a href="#7创建本地分支">7.创建本地分支</a></li>
+                        <li><a href="#8删除分支">8.删除分支</a></li>
+                        <li><a href="#9查看提交信息">9.查看提交信息</a></li>
+                        <li><a href="#10显示分支差异">10.显示分支差异</a></li>
+                        <li><a href="#11计算文件md5值">11.计算文件MD5值</a></li>
+                        <li><a href="#12更新子模块">12.更新子模块</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-<h4 id="1查看状态">1.查看状态</h4>
 
-<p>git status</p>
 
-<h4 id="2拉取远程">2.拉取远程</h4>
+    <h2 id="git">Git</h2>
 
-<p>git pull</p>
+    <h4 id="1查看状态">1.查看状态</h4>
 
-<h4 id="3查看分支">3.查看分支</h4>
+    <p>git status</p>
 
-<p>git branch -a</p>
+    <h4 id="2拉取远程">2.拉取远程</h4>
 
-<blockquote>
-  <p>白色文本：本地分支，红色文本：远程分支</p>
-</blockquote>
+    <p>git pull</p>
 
-<h4 id="4切换分支">4.切换分支</h4>
+    <h4 id="3查看分支">3.查看分支</h4>
 
-<p>git checkout 分支名</p>
+    <p>git branch -a</p>
 
-<h4 id="5添加代码">5.添加代码</h4>
+    <blockquote>
+      <p>白色文本：本地分支，红色文本：远程分支</p>
+    </blockquote>
 
-<p>git add .</p>
+    <h4 id="4切换分支">4.切换分支</h4>
 
-<h4 id="6提交代码">6.提交代码</h4>
+    <p>git checkout 分支名</p>
 
-<p>git  commit -m “提交信息”</p>
+    <h4 id="5添加代码">5.添加代码</h4>
 
-<h4 id="7创建本地分支">7.创建本地分支</h4>
+    <p>git add .</p>
 
-<p>git checkout -b 分支名</p>
+    <h4 id="6提交代码">6.提交代码</h4>
 
-<h4 id="8删除分支">8.删除分支</h4>
+    <p>git commit -m “提交信息”</p>
 
-<blockquote>
-  <p>删除未切换的分支：git branch -d 分支名 <br>
-  删除已切换的分支：git branch -D 分支名</p>
-</blockquote>
+    <h4 id="7创建本地分支">7.创建本地分支</h4>
 
-<h4 id="9查看提交信息">9.查看提交信息</h4>
+    <p>git checkout -b 分支名</p>
 
-<p>git log</p>
+    <h4 id="8删除分支">8.删除分支</h4>
 
-<h4 id="10显示分支差异">10.显示分支差异</h4>
+    <blockquote>
+      <p>删除未切换的分支：git branch -d 分支名 <br>
+        删除已切换的分支：git branch -D 分支名</p>
+    </blockquote>
 
-<blockquote>
-  <ul><li><p>显示出分支A和分支B中差异部分（代码增加或减少的个数）：git  diff  分支A  分支B  –stat</p></li>
-  <li><p>显示指定文件的详细差异（代码可视化）：git  diff  分支A  分支B  具体文件路径</p></li>
-  <li><p>显示出所有有差异的文件的详细差异（超级全）：git  diff  分支A  分支B</p></li>
-  </ul>
-</blockquote>
+    <h4 id="9查看提交信息">9.查看提交信息</h4>
 
-<h4 id="11计算文件md5值">11.计算文件MD5值</h4>
+    <p>git log</p>
 
-<p>md5sum.exe 文件路径</p>
+    <h4 id="10显示分支差异">10.显示分支差异</h4>
 
-<h4 id="12更新子模块">12.更新子模块</h4>
+    <blockquote>
+      <ul>
+        <li>
+          <p>显示出分支A和分支B中差异部分（代码增加或减少的个数）：git diff 分支A 分支B –stat</p>
+        </li>
+        <li>
+          <p>显示指定文件的详细差异（代码可视化）：git diff 分支A 分支B 具体文件路径</p>
+        </li>
+        <li>
+          <p>显示出所有有差异的文件的详细差异（超级全）：git diff 分支A 分支B</p>
+        </li>
+      </ul>
+    </blockquote>
 
-<p>git submodule update –init –recursive</p>
+    <h4 id="11计算文件md5值">11.计算文件MD5值</h4>
 
-<blockquote>
-  <p>若报错，先删除子模块文件夹</p>
-</blockquote></div></body></html>
+    <p>md5sum.exe 文件路径</p>
+
+    <h4 id="12更新子模块">12.更新子模块</h4>
+
+    <p>git submodule update –init –recursive</p>
+
+    <blockquote>
+      <p>若报错，先删除子模块文件夹</p>
+    </blockquote>
+  </div>
+</body>
+
+</html>
